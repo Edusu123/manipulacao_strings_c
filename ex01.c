@@ -1,3 +1,12 @@
+/*
+
+Escreva um programa para converter uma cadeia de caracteres de letras maiúsculas
+em letras minúsculas. Não é possível utilizar a função tolower().
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
