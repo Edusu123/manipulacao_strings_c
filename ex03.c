@@ -1,3 +1,12 @@
+/*
+
+Faça uma função que compare duas strings (não utilize a função strcmp()). Escreva um
+programa que utilize a função desenvolvida.
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
