@@ -1,3 +1,12 @@
+/*
+
+Leia uma cadeia de caracteres e converta todos os caracteres para maiúscula. Não é 
+possível usar a função toupper().
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
