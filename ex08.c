@@ -1,3 +1,12 @@
+/*
+
+Faça um programa que receba uma string e calcule quantas vogais (a, e, i, o, u) possui
+essa string.
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
