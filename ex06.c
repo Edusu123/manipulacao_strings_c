@@ -1,3 +1,11 @@
+/*
+
+Faça um programa que receba uma palavra e a imprima de trás-para-frente.
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
