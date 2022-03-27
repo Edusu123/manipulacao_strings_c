@@ -1,3 +1,12 @@
+/*
+
+Faça um programa que receba do usuário uma string. O programa imprime a string sem 
+suas vogais.
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
