@@ -1,3 +1,12 @@
+/*
+
+Faça um programa que leia uma string e um caractere (vogal ou consoante) e, substitua
+todas as vogais da string dada por esse caractere.
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
