@@ -1,3 +1,11 @@
+/*
+
+Faça um programa que conte o número de 1's que aparecem em uma string.
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
