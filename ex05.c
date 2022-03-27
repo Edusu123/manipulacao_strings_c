@@ -1,3 +1,12 @@
+/*
+
+Escreva um programa que substitui as ocorrências de um caractere '0' em uma string
+por outro caractere '1'.
+
+*/
+
+/////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<string.h>
 
