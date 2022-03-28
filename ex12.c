@@ -14,19 +14,25 @@ esta função.
 int verificaPalavraFrase(char palavra[256], char frase[256]);
 
 int main(){
-    char palavra[256];
-    printf("palavra: ");
-    scanf("%s", &palavra);
-    fflush(stdin);
+    char dec;
 
-    char frase[256];
-    printf("frase: ");
-    gets(frase);
-    fflush(stdin);
-    
-    int quantidade = verificaPalavraFrase(palavra, frase);
+    do{
+        char palavra[256];
+        printf("palavra: ");
+        scanf("%s", &palavra);
+        fflush(stdin);
 
-    printf("\n\nquantidade de vezes: %d", quantidade);
+        char frase[256];
+        printf("frase: ");
+        gets(frase);
+        fflush(stdin);
+        
+        int quantidade = verificaPalavraFrase(palavra, frase);
+
+        printf("\n\nquantidade de vezes: %d", quantidade);
+        printf("\n\ndeseja ir novamente? (s/n)");
+        scanf("%c", &dec);
+    }while(dec == 's' || dec == 'S');
 
     return 0;
 }
@@ -36,7 +42,6 @@ int verificaPalavraFrase(char palavra[256], char frase[256]){
 
     int fraseLen = strlen(frase);
     int palavraLen = strlen(palavra);
-    printf("palavra: %d\nfrase: %d", palavraLen, fraseLen);
 
     // percorre a frase até chegar no limite de tamanho que pode conter a palavra
     for(int i = 0; i < (fraseLen - palavraLen + 1); i += 1){
