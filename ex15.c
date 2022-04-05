@@ -9,8 +9,6 @@ de cada caractere da palavra. Imprima a string resultante.
 #include<stdio.h>
 #include<string.h>
 
-
-
 int main(){
 
     fflush(stdin);
