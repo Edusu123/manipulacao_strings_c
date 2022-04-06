@@ -7,7 +7,6 @@ retorne a string codificada.
 
 #include<conio.h>
 #include<stdio.h>
-#include<stdbool.h>
 #include<string.h>
 
 char *codificaString(char *string);
