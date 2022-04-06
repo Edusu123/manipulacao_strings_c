@@ -17,9 +17,9 @@ int main(){
     printf("palavra: ");
     scanf("%s", string);
 
-    char *ptr = string;
+    char* ptr = string;
 
-    char *r = codificaString(ptr);
+    char* r = codificaString(ptr);
 
     printf("resultado: ");
     while(*r != '\0') {
